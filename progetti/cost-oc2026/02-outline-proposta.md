@@ -602,3 +602,34 @@ Oggi è domenica 27/09/2026. La scadenza è **mercoledì 28/10/2026 ore 12:00 CE
 6. Stakeholder non accademici disponibili (per categoria).
 7. 10–20 riferimenti bibliografici chiave, incluse eventuali auto-citazioni da rendere anonime.
 8. Nome di un revisore interno per la mock evaluation (settimana S4).
+
+---
+
+## 8. Integrazione dell'orchestratore: fonti per i segnaposto [RIF. DA RICERCATORE]
+
+> Aggiunta il 27/09/2026 dopo la consegna di `03-stato-arte-tema.md`. **✔** indica che l'orchestratore ha verificato la voce sulla pagina primaria. Le altre voci vanno controllate sul DOI prima di inserirle nelle References (limite: 500 parole).
+
+| Segnaposto nell'outline | Fonti candidate (dettagli in file 03) |
+|---|---|
+| **1.A Problema:** dati imprecisi, intervalli, errore | Billard & Diday 2003; Brito 2014; Goedemé 2013 (errori standard EU-SILC); Banks, Glinnan & Komarova ✔ arXiv:2512.07709 |
+| **1.A Conseguenza:** ranking e policy fragili | San Martín et al. ✔ *Ann. Oper. Res.* 363(2), 2026 (bounds sul Gini che possono invertire le conclusioni); Nicoletti et al. 2011 (bounds sul tasso di povertà, paesi europei) |
+| **1.A Perché ora** | Eurostat ✔: AROPE 2025 = 20,9%, 92,7 milioni di persone; EU Anti-Poverty Strategy ✔, 6/05/2026, obiettivo di eradicare la povertà entro il 2050; target 2030 del Pilastro europeo dei diritti sociali; SDG 1 |
+| **1.A e 1.C:** la SDA non è ancora nella statistica ufficiale | Verde et al. 2024 ✔ *Stat. J. IAOS*, 10.3233/SJI-240013 |
+| **1.C Filone 1:** povertà multidimensionale e compositi | Alkire & Foster 2011; Saisana, Saltelli & Tarantola 2005; Suppa & Kanagaratnam 2025 |
+| **1.C Filone 2:** dati ad intervallo e SDA | Billard & Diday 2003; Brito 2014; Dias & Brito 2015; Verde et al. 2024 ✔ |
+| **1.C Filone 3:** incertezza e SAE | Goedemé 2013; Molina & Rao 2010; Arias-Salazar et al. 2025 ✔ *J. Off. Stat.*; Das, Deepawansa & Lahiri ✔ arXiv:2510.08898 |
+| **1.C Filone 4:** fuzzy e bounds | Cheli & Lemmi 1995; Betti & Verma 2008; Crescenzi & Mori ✔ arXiv:2309.01234; Banks et al. ✔; San Martín et al. ✔ |
+| **WG3:** fonti dati | EU-SILC (Reg. UE 2019/1700), indicatori SDG 1.2.1/1.2.2, World Bank PIP, Global MPI (UNDP/OPHI); tutte con URL nel file 03 |
+
+**Sovrapposizioni con COST Action: verifica dell'orchestratore**
+- Nei booklet delle Action approvate nel 2025 (CA24) e nel 2026 (CA25) **non risultano Action** su povertà, dati ad intervallo o statistica ufficiale.
+- Le Action più vicine sul lato sociale sono in file 03 §3 e vanno differenziate in 1.C senza link: ENGAGER (povertà energetica), MEHO (homelessness) e altre.
+
+**Key expertise: un'etichetta OECD confermata.** Nel booklet CA25 compare testualmente il sotto-campo **"Sociology: Social structure, inequalities, social mobility, social exclusion, income distribution, poverty"**, più adatto della voce generica "Sociology" in §1.1. Compare anche **"Mathematics: Statistics"**. Resta da confermare nel menu e-COST se "Statistics" vada selezionata sotto Mathematics.
+
+**⚠ Rischio anonimato: priorità alta.**
+- I lavori più vicini al tema, sugli indicatori compositi ad intervallo, sono del proponente (file 03 §1.2).
+- In una nicchia così stretta, citarne più d'uno o descriverli in dettaglio rende il proponente riconoscibile ai valutatori, che lavorano in doppio cieco.
+- **Raccomandazione del team:**
+  - al massimo **un** auto-riferimento, tra le References, non evidenziato e formulato in modo impersonale ("recent work on interval-valued composite indicators");
+  - la novità della proposta va costruita sul **coordinamento** tra i filoni, non sul lavoro pregresso del proponente.
