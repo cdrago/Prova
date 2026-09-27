@@ -2,7 +2,10 @@
 
 > Prodotto da **preparatore-bandi** il 27/09/2026. Le regole citate vengono **solo** da `01-regole-bando.md` (sigle [PG], [SESA], [ANN], [CT]).
 > Tutto ciò che non compare nel file 01 è marcato **[DA VERIFICARE]**.
-> Il tema non è ancora noto. I segnaposto sono tra parentesi quadre: [TEMA], [CHALLENGE], [PAESE ITC n], ecc.
+> **Tema comunicato dal cliente:** "Indicatori ad intervallo per l'analisi della povertà" (*interval-valued indicators for poverty analysis*).
+> - I contenuti orientativi sul tema sono etichettati **(bozza del team)**: vanno validati dal cliente.
+> - Dove servirebbe una fonte c'è **[RIF. DA RICERCATORE]**: niente citazioni, autori, dataset o dati numerici finché non arriva lo stato dell'arte verificato.
+> - Restano segnaposto generici tra parentesi quadre: [PAESE ITC n], [n], ecc.
 > Lingua: le note di lavoro sono in italiano; i titoli delle sezioni ufficiali e i testi da incollare in e-COST sono in inglese.
 
 ---
@@ -52,6 +55,47 @@ Dettagli e fonti sono in `01-regole-bando.md`.
 5. **Impatto e deliverable** (40–50 parole): "Expected outcomes include [deliverable chiave], benefiting [stakeholder] and strengthening research capacity in [ITC / Young Researchers and Innovators]."
 
 **Errori da evitare:** usare "we", scrivere "EU" (va "COST Member Countries/Europe"), inserire nomi di istituzioni o progetti precedenti, promettere risultati di ricerca (COST non finanzia la ricerca), superare le 250 parole.
+
+### 1.1 Proposte sul tema (bozza del team)
+
+**Titoli candidati** (tutti ≤12 parole):
+
+| # | Title | Parole |
+|---|---|---|
+| T1 | Interval-Valued Indicators for Measuring Poverty and Its Uncertainty | 9 |
+| T2 | Beyond Point Estimates: Interval-Valued Indicators for Poverty Analysis and Policy | 10 |
+| T3 | Harmonising Interval-Valued Poverty Indicators for Evidence-Based Social Policy in Europe | 11 |
+
+**Acronimi candidati:**
+- INTERPOV;
+- IVI-POV;
+- POV-INTERVAL;
+- BEYOND-POINT.
+
+Per ciascuno va verificata l'originalità: non deve coincidere con Action COST, progetti o software esistenti, né con progetti del team **[DA VERIFICARE]**.
+
+**Bozza di Summary (EN, circa 215 parole; bozza del team):**
+
+> Poverty indicators are usually published as single point values, although the information behind them is intrinsically imprecise: incomes and consumption are often reported in brackets, data are aggregated over heterogeneous units, poverty lines are uncertain and estimates are affected by sampling and non-sampling error [RIF. DA RICERCATORE]. Representing indicators as intervals makes this imprecision explicit and can change how poverty is compared, ranked and targeted. Yet research on interval-valued data, poverty measurement and official statistics is fragmented across disciplines and COST Member Countries, and no shared framework exists for constructing, analysing and communicating interval-valued poverty indicators.
+> The Action will bring together statisticians, economists, social scientists, official statistics producers and policy stakeholders to (i) harmonise concepts and methods for interval-valued poverty indicators, (ii) develop and compare methods for their estimation, aggregation and ranking, (iii) test them on comparable data across countries, and (iv) define guidelines for communicating uncertainty to policy makers.
+> Through Working Groups on foundations, methods, applications, training and policy uptake, and using Training Schools, Short-Term Scientific Missions and Virtual Mobility, the Action will build capacity among Young Researchers and Innovators and researchers in Inclusiveness Target Countries.
+> Expected outcomes include a shared methodological framework, open training materials, a research roadmap and policy-oriented guidelines, supporting more robust and transparent evidence for anti-poverty policies.
+
+Le parole vanno ricontate in e-COST. La frase "(i)…(iv)" deve restare allineata alla tabella degli obiettivi in 1.B.
+
+**Key expertise (bozza del team):** i codici e le etichette esatti vanno presi dall'elenco OECD in e-COST **[DA VERIFICARE]**.
+1. Statistics and probability, scienze naturali/matematica (campo centrale).
+2. Economics and business / Economics (economia della povertà e del benessere).
+3. Sociology (disuguaglianze, deprivazione).
+4. Political science / Public administration o Social policy.
+5. Opzionale: Computer and information sciences (software e calcolo).
+
+**Keywords (bozza del team, ≤60 caratteri ciascuna):**
+- interval-valued data;
+- poverty and deprivation measurement;
+- symbolic data analysis;
+- uncertainty in social indicators;
+- composite and multidimensional indicators.
 
 ---
 
@@ -107,6 +151,15 @@ Nota [PG]: la COST Policy (ITC, genere, YRI) **non va trattata in questa sezione
   - scrivere un progetto di ricerca invece di una sfida di rete;
   - dati quantitativi senza fonte (usare [RIF] dalla bibliografia verificata).
 - **Spazio:** circa 3.500 caratteri.
+- **Traccia sul tema (bozza del team):**
+  1. **Problema:** gli indicatori di povertà (incidenza, intensità, deprivazione, indici compositi o multidimensionali) sono pubblicati come valori puntuali. Le informazioni di base però sono imprecise o variabili: redditi dichiarati per classi, dati aggregati su unità eterogenee, incertezza sulla soglia di povertà, errore campionario e non campionario, variabilità intra-unità o intra-periodo [RIF. DA RICERCATORE].
+  2. **Conseguenza:** confronti, ranking territoriali e targeting delle politiche possono risultare fragili o fuorvianti se l'imprecisione resta nascosta [RIF. DA RICERCATORE].
+  3. **Perché ora:**
+     - domanda crescente di trasparenza sull'incertezza nelle statistiche ufficiali;
+     - monitoraggio degli obiettivi internazionali sulla povertà (SDG 1) e delle politiche di inclusione nei COST Member Countries;
+     - disponibilità di metodi per dati a intervallo o simbolici, finora poco usati nell'analisi della povertà [RIF. DA RICERCATORE].
+  4. **Frammentazione:** le comunità che lavorano su dati a intervallo o simbolici, sulla misura della povertà, sulle statistiche ufficiali e sulle politiche sociali lavorano separate.
+  5. **Challenge in una frase (EN):** "How can poverty be measured, compared and communicated through interval-valued indicators that make the underlying imprecision explicit, in a way that is methodologically sound, comparable across countries and usable for policy?"
 
 #### 1.B Objectives
 
@@ -115,16 +168,18 @@ Nota [PG]: la COST Policy (ITC, genere, YRI) **non va trattata in questa sezione
 - **Contenuti da inserire:** 4–6 obiettivi di Research Coordination e 3–5 di Capacity Building, ciascuno con risultato e indicatore. Serve un ID riusabile (RC1, CB1), da richiamare in 2.A, 3.A, 3.B e 3.C.
 - **Modello di tabella:**
 
-| ID | Tipo | Objective (EN, verbo d'azione) | WG | Output / indicatore | Deliverable |
+Tabella degli obiettivi sul tema (bozza del team). I valori [n] vanno fissati con il cliente; non sono dati.
+
+| ID | Tipo | Objective (EN) | WG | Output / indicatore | Deliverable |
 |---|---|---|---|---|---|
-| RC1 | Research Coordination | To map and harmonise [metodi/dati/protocolli] on [TEMA] | WG1 | [n] approcci confrontati; report di mappatura | D1.1 |
-| RC2 | Research Coordination | To develop a shared [framework/tassonomia/benchmark] for [CHALLENGE] | WG2 | Framework condiviso validato da [n] gruppi | D2.1 |
-| RC3 | Research Coordination | To identify [research priorities / roadmap] for [TEMA] | WG2–WG3 | Research roadmap | D3.1 |
-| RC4 | Research Coordination | To integrate [discipline A] and [discipline B] via [attività] | WG3 | [n] joint papers / position paper | D3.2 |
-| CB1 | Capacity Building | To train Young Researchers and Innovators in [competenze] | WG4 | [n] Training Schools; [n] trainee | D4.1 (training material) |
-| CB2 | Capacity Building | To foster mobility between [ITC / non-ITC] groups on [TEMA] | tutti | [n] STSM / Virtual Mobility | D4.2 |
-| CB3 | Capacity Building | To connect researchers with [stakeholder: industria, PA, ...] | WG5 | [n] stakeholder engaged; stakeholder forum | D5.2 |
-| CB4 | Capacity Building | To build a sustainable community beyond the Action lifetime | WG5 | Sustainability plan | D5.3 |
+| RC1 | Research Coordination | To map and harmonise concepts, definitions and construction rules for interval-valued poverty indicators (from bracketed, aggregated or uncertain data) | WG1 | Glossario e tassonomia condivisi; [n] approcci confrontati | D1.1 |
+| RC2 | Research Coordination | To compare and develop methods for estimating, aggregating (composite/multidimensional) and ranking interval-valued poverty indicators | WG2 | Methodological framework; [n] metodi confrontati su casi comuni | D2.1 |
+| RC3 | Research Coordination | To assess cross-country comparability by applying the framework to comparable data from COST Member Countries | WG3 | Benchmark comune; report comparativo (fonti dati [RIF. DA RICERCATORE]) | D3.1 |
+| RC4 | Research Coordination | To define a research roadmap on uncertainty-aware poverty measurement | WG1–WG3 | Research roadmap | D3.2 |
+| CB1 | Capacity Building | To train Young Researchers and Innovators in interval-valued and symbolic data methods for poverty analysis | WG4 | [n] Training Schools; open training materials | D4.1 |
+| CB2 | Capacity Building | To foster mobility and joint work between groups in ITC and other COST Member Countries | WG4 (tutti) | [n] STSM / Virtual Mobility grants | D4.2 |
+| CB3 | Capacity Building | To bridge academia, official statistics producers and policy makers on communicating uncertainty in poverty indicators | WG5 | Guidelines / policy brief; [n] stakeholder engaged | D5.2 |
+| CB4 | Capacity Building | To make methods reusable through open-source tools and a sustainable community beyond the Action | WG2, WG5 | Open-source toolkit (documentato); sustainability plan | D2.2, D5.3 |
 
 - **Domande guida:**
   - Ogni obiettivo è raggiungibile con meeting, Training School, STSM e prodotti di disseminazione?
@@ -154,6 +209,17 @@ Nota [PG]: la COST Policy (ITC, genere, YRI) **non va trattata in questa sezione
   - citare per nome progetti o reti dei proponenti;
   - inserire link.
 - **Spazio:** circa 4.500 caratteri.
+- **Filoni da coprire sul tema (bozza del team).** Ogni filone va documentato con [RIF. DA RICERCATORE]:
+  1. Misura della povertà monetaria e multidimensionale; indici compositi e loro robustezza.
+  2. Analisi di dati a intervallo o simbolici (statistica descrittiva, regressione, clustering, ranking per dati a intervallo).
+  3. Incertezza nelle statistiche ufficiali: errore campionario, stime per piccole aree, comunicazione dell'incertezza.
+  4. Approcci alternativi all'imprecisione (fuzzy, set-valued, analisi di sensibilità e robustezza) e confronto con quelli a intervallo.
+- **Gap da dimostrare:** manca un framework condiviso che colleghi il filone 2 ai filoni 1 e 3 e che sia testato in modo comparativo tra paesi e tradotto per i policy maker.
+- **"Beyond the state-of-the-art" (bozza):**
+  - framework concettuale unificato;
+  - benchmark comparativo;
+  - toolkit aperto;
+  - linee guida per comunicare l'incertezza.
 
 #### 1.D Rationale for choosing networking
 
@@ -212,12 +278,16 @@ Nota [PG]: la COST Policy (ITC, genere, YRI) **non va trattata in questa sezione
 - **Cosa cercano gli esperti:** stakeholder identificati per categoria, motivo del coinvolgimento, modalità e tempi.
 - **Contenuti da inserire:**
 
+Stakeholder tipo per il tema (bozza del team). Le categorie sono generiche: non nominare enti specifici se questo può identificare i proponenti.
+
 | Categoria stakeholder | Perché è rilevante | Modalità di coinvolgimento | Quando (mese) | WG |
 |---|---|---|---|---|
-| [Industria/PMI in settore X] | [...] | Stakeholder workshop, advisory board | M6, M24, M42 | WG5 |
-| [PA / policy maker] | [...] | Policy brief, evento dedicato | M36–M48 | WG5 |
-| [Società civile / utenti finali] | [...] | [co-design, consultazioni] | [...] | [...] |
-| [Altre reti o infrastrutture, in forma generica] | [...] | [...] | [...] | [...] |
+| Istituti statistici nazionali e altri produttori di statistiche ufficiali | Producono gli indicatori di povertà; devono valutare fattibilità e comunicazione dell'incertezza | Stakeholder advisory board; workshop tecnici; test del framework | M6, M24, M42 | WG3, WG5 |
+| Organizzazioni internazionali e sovranazionali (statistica, sviluppo, politiche sociali) | Armonizzazione e confrontabilità tra paesi; monitoraggio degli obiettivi sulla povertà | Consultazione sulla roadmap; presentazione del benchmark | M18, M36 | WG3, WG5 |
+| Policy maker e amministrazioni (nazionali, regionali, locali) | Usano gli indicatori per targeting e valutazione delle politiche | Policy brief; evento dedicato; co-design delle linee guida | M30–M48 | WG5 |
+| ONG e organizzazioni della società civile contro la povertà | Uso degli indicatori in advocacy e servizi; feedback sull'interpretabilità | Focus group; stakeholder forum | M24, M36 | WG5 |
+| Parti sociali, think tank, media specializzati (opzionale) | Comunicazione pubblica dei dati sulla povertà | Materiali divulgativi; webinar | M36–M48 | WG5 |
+| Sviluppatori di software statistico open-source (comunità) | Adozione e manutenzione degli strumenti | Hackathon o sprint; repository condiviso (senza link nella proposta) | M12–M36 | WG2 |
 
 - **Domande guida:** Quali stakeholder sono già interessati (senza nominarli)? Cosa ottengono dall'Action?
 - **Errori da evitare:**
@@ -267,13 +337,15 @@ Nota [PG]: **nessun budget** nel work plan. Gli esperti valutano anche la **inte
   - Ruoli facoltativi utili: STSM/Training coordinator, Core Group **[DA VERIFICARE nei [PG]/Annotated Rules]**.
 - **Struttura tipo con 5 WG:**
 
+Struttura dei WG sul tema (bozza del team):
+
 | WG | Titolo (EN) | Focus | Obiettivi coperti | Deliverable principali |
 |---|---|---|---|---|
-| WG1 | [Mapping & harmonisation of TEMA] | Stato dell'arte, dati e metodi condivisi | RC1 | D1.1, D1.2 |
-| WG2 | [Framework / methods for CHALLENGE] | Sviluppo del framework comune | RC2, RC3 | D2.1, D2.2 |
-| WG3 | [Integration / applications in SETTORE] | Integrazione interdisciplinare, casi d'uso | RC3, RC4 | D3.1, D3.2 |
-| WG4 | Capacity building & training | Training Schools, STSM, mentoring di YRI e ITC | CB1, CB2 | D4.1, D4.2 |
-| WG5 | Stakeholder engagement, dissemination & sustainability | Stakeholder, comunicazione, valorizzazione | CB3, CB4 | D5.1–D5.3 |
+| WG1 | Conceptual foundations of interval-valued poverty indicators | Definizioni, proprietà desiderabili, costruzione degli intervalli da dati per classi, aggregati o incerti; glossario | RC1, RC4 | D1.1, D1.2 |
+| WG2 | Statistical methods and computational tools | Stima e inferenza, aggregazione composita e multidimensionale, confronto e ranking di intervalli, toolkit open-source | RC2, CB4 | D2.1, D2.2 |
+| WG3 | Data, applications and cross-country comparability | Applicazione a dati comparabili dei COST Member Countries (fonti [RIF. DA RICERCATORE]), livello territoriale, confronto con indicatori puntuali | RC3, RC4 | D3.1, D3.2 |
+| WG4 | Capacity building and training | Training Schools, STSM, Virtual Mobility, mentoring di YRI e ricercatori ITC | CB1, CB2 | D4.1, D4.2 |
+| WG5 | Policy uptake, stakeholder engagement and communication of uncertainty | Rapporti con istituti statistici, organizzazioni internazionali, policy maker e ONG; linee guida; disseminazione; sostenibilità | CB3, CB4 | D5.1–D5.3 |
 
   Variante con 4 WG: WG4 e WG5 possono essere fusi, oppure la capacity building può diventare trasversale.
 - **Internal communication (esempi):**
@@ -332,13 +404,19 @@ Nota [PG]: **nessun budget** nel work plan. Gli esperti valutano anche la **inte
 
 | ID | Deliverable (EN) | Tipo (report, framework, dataset, guidelines, training material, policy brief, paper) | WG | Mese | Obiettivo |
 |---|---|---|---|---|---|
-| D1.1 | Report on the mapping of [...] | Report | WG1 | M12 | RC1 |
-| D2.1 | Shared [framework/protocol] v1 | Framework | WG2 | M24 | RC2 |
-| D3.1 | Research roadmap on [TEMA] | Roadmap | WG2–WG3 | M36 | RC3 |
+| D1.1 | Glossary and taxonomy of interval-valued poverty indicators | Report | WG1 | M12 | RC1 |
+| D1.2 | Position paper on desirable properties of interval-valued poverty indicators | Paper | WG1 | M24 | RC1 |
+| D2.1 | Methodological framework for estimation, aggregation and ranking | Framework | WG2 | M24 | RC2 |
+| D2.2 | Documented open-source toolkit | Software/tool | WG2 | M36 | CB4 |
+| D3.1 | Cross-country comparative report (interval vs point indicators) | Report | WG3 | M36 | RC3 |
+| D3.2 | Research roadmap on uncertainty-aware poverty measurement | Roadmap | WG1–WG3 | M44 | RC4 |
 | D4.1 | Open training materials | Training material | WG4 | M18 | CB1 |
-| D5.1 | Communication & dissemination plan | Plan | WG5 | M6 | CB3 |
-| D5.2 | Policy brief / stakeholder recommendations | Policy brief | WG5 | M42 | CB3 |
+| D4.2 | Report on mobility outcomes (STSM / Virtual Mobility) | Report | WG4 | M46 | CB2 |
+| D5.1 | Communication and dissemination plan | Plan | WG5 | M6 | CB3 |
+| D5.2 | Guidelines / policy brief on communicating uncertainty in poverty indicators | Policy brief | WG5 | M42 | CB3 |
 | D5.3 | Sustainability plan | Plan | WG5 | M48 | CB4 |
+
+Tabella sul tema: bozza del team. Mesi da riallineare con il Gantt.
 
 - **Errori da evitare:**
   - deliverable non verificabili;
@@ -485,7 +563,7 @@ Oggi è domenica 27/09/2026. La scadenza è **mercoledì 28/10/2026 ore 12:00 CE
 | **Emergenza** | 27/10 – 28/10 ore 11:00 | Solo per problemi tecnici. Non pianificare lavoro sui contenuti | Main Proposer | — |
 
 **Rischi di calendario:**
-1. Il tema arriva dopo il 30/10... anzi dopo il 30/09: ogni giorno di ritardo toglie tempo alla revisione (S4).
+1. Il tema è arrivato il 27/09. Resta però da **validare la bozza** (challenge, obiettivi, WG) entro il 30/09: ogni giorno di ritardo toglie tempo alla revisione (S4).
 2. La rete ITC richiede tempo: i contatti vanno avviati **subito**, in parallelo alla definizione del tema.
 3. Profili e-COST dei partner non pronti o doppi.
 4. Partner già impegnati in altre proposte (regola del ruolo unico).
@@ -503,14 +581,21 @@ Oggi è domenica 27/09/2026. La scadenza è **mercoledì 28/10/2026 ore 12:00 CE
 5. Se la proposta possa essere modificata dopo l'invio, entro la scadenza.
 6. Se nelle References siano ammessi DOI (dato il divieto di link).
 7. Ruoli facoltativi della governance ammessi o raccomandati (Core Group, coordinatori di STSM e Training School).
-8. Action COST esistenti o passate su [TEMA], per differenziarsi e controllare l'originalità dell'acronimo.
+8. Action COST esistenti o passate su povertà, disuguaglianza, dati a intervallo o simbolici e statistiche ufficiali, per differenziarsi e controllare l'originalità degli acronimi candidati (INTERPOV, IVI-POV, POV-INTERVAL, BEYOND-POINT).
+8-bis. Stato dell'arte verificato per i 4 filoni di 1.C e per tutte le voci [RIF. DA RICERCATORE]: 1.A, 1.C, Summary, fonti dati di WG3.
 9. Budget del primo anno (140k o 150k EUR): non incide sulla proposta, che non contiene budget, ma serve per dimensionare in modo realistico Training School e STSM.
 10. Uso di "EU" in riferimenti inevitabili (policy UE sul tema).
 
 ### 7.2 Informazioni che servono dal cliente (entro il 30/09)
 
-1. **[TEMA]** e **[CHALLENGE]**: 5–10 righe, con discipline e settori coinvolti.
-2. Idee sui WG e sugli output attesi (framework, linee guida, dataset, ecc.).
+1. Validazione o correzione della **bozza del team**:
+   - titolo e acronimo preferiti;
+   - Summary;
+   - challenge (1.A);
+   - obiettivi RC/CB (1.B);
+   - 5 WG (3.A);
+   - scelta del focus: povertà monetaria, multidimensionale o entrambe; livello nazionale e/o territoriale.
+2. Output attesi prioritari (framework, toolkit software, linee guida per gli istituti statistici, ecc.), e se il gruppo dispone già di software o metodi da rendere anonimi nel testo.
 3. **Lista dei potenziali partner** (nome, istituzione, paese, anno di nascita, genere, expertise), indicando quali sono in paesi ITC.
 4. Conferma che il cliente **non** è Main o Secondary Proposer in un'altra proposta OC-2026-1, e che il suo gruppo non presenta proposte simili.
 5. Esistenza e stato del profilo e-COST del cliente.
